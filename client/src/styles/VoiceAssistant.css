@@ -1,0 +1,29 @@
+.VoiceAssistant{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.assistant p,.user p{
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.assistant{
+  display: grid;
+  grid-template-columns: 77px 1fr;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(107, 255, 164, 0.525);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.user{
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(50, 186, 77, 0.679);
+  padding: 10px;
+}

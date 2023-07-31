@@ -1,0 +1,17 @@
+.App {
+  margin: 1% auto 1% auto;
+  max-width: 500px;
+  background-color: rgba(39, 247, 178, 0.245);
+  min-height: 900px;
+}
+.root{
+  height: 100%;
+}
+h2{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(3, 172, 3);
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

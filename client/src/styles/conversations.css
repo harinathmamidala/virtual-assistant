@@ -1,0 +1,47 @@
+.conversations{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.conversations h3{
+   background-color: rgba(0, 197, 108, 0.963);
+   padding: 10px;
+   margin-bottom: 20px;
+}
+
+.conversations .ul{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-decoration: none;
+}
+.conversations .ul .li{
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+  
+  padding: 10px;
+  margin: 5px;
+}
+
+.conversations .ul .li .link{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.conversations .ul .li button{
+  background-color: #c46e6e; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.conversation{
+  margin: 20px;
+}
